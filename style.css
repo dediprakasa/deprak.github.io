@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background: url("./img/main-bg.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    font-family: "Crete Round", serif;
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+header {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+
+#icon {
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+nav {
+    line-height: 40px;
+    margin: auto 30px;
+    float: right;
+}
+
+ul li {
+    padding: 10px 20px;
+    display: inline;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#words {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+h1 {
+    font-family: "Crete Round", serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
