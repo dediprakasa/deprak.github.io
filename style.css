@@ -7,7 +7,8 @@ body {
     text-align: center;
     background: url("./img/main-bg.jpg") no-repeat center center fixed; 
     background-size: cover;
-    font-family: "Crete Round", serif;
+    font-family: 'Quattrocento Sans', sans-serif;
+    line-height: 1.75em;
 }
 
 #overlay {
@@ -59,12 +60,27 @@ ul li a {
 }
 
 h1 {
-    font-family: "Crete Round", serif;
+    font-family: 'Quattrocento Sans', sans-serif;
     text-transform: uppercase;
     color: white;
+}
+
+p {
+    color: #9a9a9a;
+    font-size: 1.2em;
+}
+
+em {
+    color: #9a9a9a;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
     color: white;
 }
+
+a:hover {
+    color: #9a9a9a;
+}
+
