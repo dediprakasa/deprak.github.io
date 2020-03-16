@@ -13,7 +13,7 @@ This app lets you create a list of movies and TV shows that you like or are goin
 
 You can try this app by downloading Expo app in Google Store or App Store, then scan a barcode provided in this  link: [https://expo.io/@deprak/MyMovies](https://expo.io/@deprak/MyMovies "https://expo.io/@deprak/MyMovies")
 
-Github repository:
+Github repository: [https://github.com/deprak/my-movies](https://github.com/deprak/my-movies "https://github.com/deprak/my-movies")
 
 #### **Mupis**
 
