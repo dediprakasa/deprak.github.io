@@ -17,7 +17,7 @@ Github repository: [https://github.com/deprak/my-movies](https://github.com/depr
 
 #### **Mupis**
 
-A less sophisticated version of the previous app. In this app, the user can only see movie and its detail. I did not build server for this app because all the data are obtained directly from [The Movie Database API.](https://developers.themoviedb.org/3)
+A less sophisticated version of the previous app. In this app, the user can only see the movie and its detail. I did not build a server for this app because all the data are obtained directly from [The Movie Database API.](https://developers.themoviedb.org/3)
 
 ![/uploads/Portfolio.png](https://app.forestry.io/sites/laat0xif7me2lg/body-media//uploads/Portfolio.png)
 
