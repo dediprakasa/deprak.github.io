@@ -62,3 +62,5 @@ Github repository:
 ![/uploads/Screenshot from 2020-03-16 18-47-51.png](https://app.forestry.io/sites/laat0xif7me2lg/body-media//uploads/Screenshot from 2020-03-16 18-47-51.png)
 
 That's all. If you are interested in my works, please feel free to [reach me out!](https://deprak.github.io/menu/contact.html)
+
+{% include youtube_embed.html id="6EVs0BrG57I" %}
