@@ -11,7 +11,7 @@ This app lets you create a list of movies and TV shows that you like or are goin
 
 ![/uploads/Portfolio (2).png](https://app.forestry.io/sites/laat0xif7me2lg/body-media//uploads/Portfolio (2).png)
 
-You can try this app by downloading Expo app in Google Store or App Store, then scan a barcode provided in this link: [https://expo.io/@deprak/MyMovies](https://expo.io/@deprak/MyMovies "https://expo.io/@deprak/MyMovies")
+You can try this app by downloading Expo app in Google Store or App Store, then scan a barcode provided in this  link: [https://expo.io/@deprak/MyMovies](https://expo.io/@deprak/MyMovies "https://expo.io/@deprak/MyMovies")
 
 Github repository:
 
@@ -53,7 +53,7 @@ Github repository:
 
 #### **Anemployed (React.js)**
 
-Link: [https://anemployed-b38ee.firebaseapp.com/](https://anemployed-b38ee.firebaseapp.com/ "https://anemployed-b38ee.firebaseapp.com/")﻿
+Link: [https://anemployed-b38ee.firebaseapp.com/](https://anemployed-b38ee.firebaseapp.com/ "https://anemployed-b38ee.firebaseapp.com/")
 
 Github repository:
 
