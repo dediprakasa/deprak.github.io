@@ -7,7 +7,7 @@ I am currently interested in mobile development. I have built some simple mobile
 
 #### **My Movies**
 
-This app lets you create a list of movies and TV shows that you like or are going to watch. I implemented microservice architecture which separates the database of movies and TV shows (both are using MongoDB). Those two databases can be accessed through GraphQL API Gateway. The data of the movies and TV shows are retrieved from [The Movie Database API](https://developers.themoviedb.org/3). Here is some preview of the app.
+This app lets you create a list of movies and TV shows that you like or are going to watch. I implemented microservice architecture which separates the database of your list of movies and TV shows (both are using MongoDB). Those two databases can be accessed through GraphQL API Gateway. The data of the movies and TV shows are retrieved from [The Movie Database API](https://developers.themoviedb.org/3). Here is some preview of the app.
 
 ![/uploads/Portfolio (2).png](https://app.forestry.io/sites/laat0xif7me2lg/body-media//uploads/Portfolio (2).png)
 
@@ -35,9 +35,11 @@ The presentation slides can be viewed [here.](https://docs.google.com/presentati
 
 ![](/uploads/Portfolio (3).png)
 
-Aside from my interest in mobile development, I am also working on sharpening my skills in web development. Below are some of the work I had done.
-
 Github repository: [https://github.com/Bontiya](https://github.com/Bontiya "https://github.com/Bontiya")
+
+***
+
+Aside from my interest in mobile development, I am also working on sharpening my skills in web development. Below are some of the work I had done.
 
 #### **Fancy Todo (jQuery)**
 
@@ -51,7 +53,7 @@ Link: [http://nano-wp.deprak.xyz/](http://nano-wp.deprak.xyz/ "http://nano-wp.de
 
 Github repository: [https://github.com/deprak/nano-wp](https://github.com/deprak/nano-wp "https://github.com/deprak/nano-wp")
 
-![/uploads/Screenshot from 2020-03-16 18-49-04.png](https://app.forestry.io/sites/laat0xif7me2lg/body-media//uploads/Screenshot from 2020-03-16 18-49-04.png)
+![](/uploads/Screenshot from 2020-03-16 20-16-31.png)
 
 #### **Password Manager (React.js)**
 
@@ -67,6 +69,6 @@ Link: [https://anemployed-b38ee.firebaseapp.com/](https://anemployed-b38ee.fireb
 
 Github repository: [https://github.com/deprak/anemployed](https://github.com/deprak/anemployed "https://github.com/deprak/anemployed")
 
-![/uploads/Screenshot from 2020-03-16 18-47-51.png](https://app.forestry.io/sites/laat0xif7me2lg/body-media//uploads/Screenshot from 2020-03-16 18-47-51.png)
+![](/uploads/Screenshot from 2020-03-16 20-27-19.png)
 
 That's all. If you are interested in my works, please feel free to [reach me out!](https://deprak.github.io/menu/contact.html)
