@@ -5,7 +5,6 @@ author: Dedi Prakasa
 categories: ''
 tags: []
 image: ''
-published: false
 
 ---
 These are my portfolio
