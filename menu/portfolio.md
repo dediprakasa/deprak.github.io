@@ -31,8 +31,6 @@ Github repository:
 
 This is actually a group project consisted of four members including me. My main role here was to build the user interface of the detail, form page, and to integrate the app with Google Visions API. As for now, I am unable to provide the live app for you to try it out. Nevertheless, I had recorded the flow of the app as you can see in the following video.
 
-{% include youtube_embed.html id="6EVs0BrG57I" %}
-
 The presentation slides can be viewed [here.](https://docs.google.com/presentation/d/1UJcpD3H53MPVptVLzDa2QRPp99VlQADdcSF2l37oUrY/edit?usp=sharing)
 
 Aside from my interest in mobile development, I am also working on sharpening my skills in web development. Below are some of the work I had done.
