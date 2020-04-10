@@ -7,7 +7,7 @@ tags: []
 image: ''
 
 ---
-I am currently interested in mobile development. I have built some simple mobile apps to get myself used to being in this field. The projects are built using React Native.
+I am currently interested in mobile development. I have built some simple mobile apps to get myself used to being in this field. For the time being, I shift my focus towards iOS development using Swift. Some projects are soon to be published. In the meantime, here are several projects that are built using React Native.
 
 #### **My Movies**
 
