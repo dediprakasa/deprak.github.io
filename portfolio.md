@@ -1,6 +1,6 @@
 ---
 layout: Portfolio
-title: Portfolio
+title: Handcraft
 author: Dedi Prakasa
 categories: ''
 tags: []
