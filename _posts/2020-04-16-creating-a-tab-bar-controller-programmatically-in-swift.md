@@ -1,12 +1,12 @@
 ---
-layout: ''
+layout: post
 title: Creating a Tab Bar Controller Programmatically in Swift
 author: Dedi Prakasa
 categories: ''
 tags:
 - swift
 - ios
-image: ''
+image: "/uploads/Screen Shot 2020-04-16 at 7.50.29 PM.png"
 
 ---
 Tab bar controllers are common to be found on mobile applications considering the convenience they offer in terms of switching between screens. Here, I am going to show you how to create a tab bar controller programmatically in Swift (without using Storyboard).
