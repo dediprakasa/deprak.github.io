@@ -6,7 +6,7 @@ categories: ''
 tags:
 - swift
 - ios
-image: "/uploads/Screen Shot 2020-04-16 at 7.50.29 PM.png"
+image: ''
 
 ---
 Tab bar controllers are common to be found on mobile applications considering the convenience they offer in terms of switching between screens. Here, I am going to show you how to create a tab bar controller programmatically in Swift (without using Storyboard).
@@ -94,4 +94,4 @@ Next, inside the uppermost boilerplate function, still, in SceneDelegate.swift f
 
 Line 5 to 7 is the setup we need to set considering that we are not using Storyboard. Finally, we set the instance of our tab bar controller to the rootViewController of the window. The final result will pretty much look like this.
 
-![](/uploads/Screen Shot 2020-04-16 at 7.50.29 PM.png)![](/uploads/Screen Shot 2020-04-16 at 7.50.01 PM.png)
+![](/uploads/Untitled presentation.png)
