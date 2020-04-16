@@ -6,7 +6,7 @@ categories: ''
 tags:
 - swift
 - ios
-image: "uploads/jakob-owens-R-8Kkjaztn0-unsplash-1.jpg"
+image: "iphone.jpg"
 
 ---
 Tab bar controllers are common to be found on mobile applications considering the convenience they offer in terms of switching between screens. Here, I am going to show you how to create a tab bar controller programmatically in Swift (without using Storyboard).
