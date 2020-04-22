@@ -17,6 +17,7 @@ I create two separate files for each view controllers, I name them HomeVC and Fa
 
 **HomeVC.swift**
 
+```swift
     import UIKit
     
     class HomeVC: UIViewController {
@@ -26,13 +27,14 @@ I create two separate files for each view controllers, I name them HomeVC and Fa
             
             view.backgroundColor = .systemPink
         }
-    
     }
+```
 
 **FavoritesVC.swift**
 
+```swift
     import UIKit
-    
+        
     class FavoritesVC: UIViewController {
     
         override func viewDidLoad() {
@@ -41,56 +43,59 @@ I create two separate files for each view controllers, I name them HomeVC and Fa
             view.backgroundColor = .systemBlue
         }
     }
+```
 
 Then, in SceneDelegate.swift, we create three functions as follows. The goal of this block of code is to create one tab bar controller and two navigation controllers. As I stated earlier, the first one will 'hold' the other two.
 
+```swift
     func createTabBar() -> UITabBarController {
             
-            let tabBar = UITabBarController()
-            let homeNC = createHomeNavigationController()
-            let favoritesNC = createFavoritesNavigationController()
-            
-            tabBar.viewControllers = [homeNC, favoritesNC]
-            
-            return tabBar
-             
-        }
+        let tabBar = UITabBarController()
+        let homeNC = createHomeNavigationController()
+        let favoritesNC = createFavoritesNavigationController()
         
-     func createHomeNavigationController() -> UINavigationController {
+        tabBar.viewControllers = [homeNC, favoritesNC]
+        
+        return tabBar
             
-            let homeVC = HomeVC()
-            homeVC.title = "Home"
-            homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 0)
+    }
+        
+    func createHomeNavigationController() -> UINavigationController {
             
-            return UINavigationController(rootViewController: homeVC)
-        }
+        let homeVC = HomeVC()
+        homeVC.title = "Home"
+        homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 0)
+        
+        return UINavigationController(rootViewController: homeVC)
+    }
         
      func createFavoritesNavigationController() -> UINavigationController {
             
-            let favoritesVC = FavoritesVC()
-            favoritesVC.title = "Favorites"
-            favoritesVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
-            
-            return UINavigationController(rootViewController: favoritesVC)
-            
-        }
+        let favoritesVC = FavoritesVC()
+        favoritesVC.title = "Favorites"
+        favoritesVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        
+        return UINavigationController(rootViewController: favoritesVC)   
+    }
+```
 
 Making separate functions with specific functionality like above is my personal preference. If you find it not too efficient, then you can write the code with the style you are happy with.
 
 Next, inside the uppermost boilerplate function, still, in SceneDelegate.swift file, we add the following lines of code:
 
+```swift
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
             
-            guard let windowScene = (scene as? UIWindowScene) else { return }
-            
-            window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-            window?.windowScene = windowScene
-            window?.makeKeyAndVisible()
-            
-            let tabBar = createTabBar()
-            window?.rootViewController = tabBar
-            
-        }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+        window?.makeKeyAndVisible()
+        
+        let tabBar = createTabBar()
+        window?.rootViewController = tabBar
+    }
+```
 
 Line 5 to 7 is the setup we need to set considering that we are not using Storyboard. Finally, we set the instance of our tab bar controller to the rootViewController of the window. The final result will pretty much look like this.
 
