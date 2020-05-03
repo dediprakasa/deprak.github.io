@@ -9,15 +9,16 @@ I am currently interested in mobile development. I have built some simple mobile
 
 This app was built fully programmatically using Swift and UIKit framework. The data are fetched from [The Movie Database API](https://developers.themoviedb.org/3).
 
-![/uploads/demo.gif]()
+![](/uploads/demo.gif)
 
 Things I've learned from this project including but not limited to:
-- Navigation controller
-- Tab controller
-- Making a network request
-- Persistence manager
-- Collection views
-- Table views
+
+* Navigation controller
+* Tab controller
+* Making a network request
+* Persistence manager
+* Collection views
+* Table views
 
 Github repository: [https://github.com/deprak/mupis](https://github.com/deprak/inpo-mupis "https://github.com/deprak/inpo-mupis")
 
